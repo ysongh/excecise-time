@@ -8,13 +8,17 @@ class LineGraph extends React.Component {
                 id: "basic-line"
             },
             xaxis: {
-                categories: [1, 2, 3, 4, 5, 6, 7, 8]
+                categories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+            },
+            yaxis: {
+                min: -45,
+                max: 45
             }
         },
         series: [
             {
                 name: "Time",
-                data: [30, 40, 55, 50, 49, 34, 70, 51]
+                data: [-20, -20, 20, 20, 21, -10, -10, -10, 40, 40, 5, 5, 10, 25, 30]
             }
         ]
     };

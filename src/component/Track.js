@@ -9,6 +9,10 @@ class Track extends Component{
                 <h1 className="dashBoard__title">Exercise Tracking</h1>
                 <p className="track__exerciseTitle">Exercise#1</p>
                 <LineGraph />
+                <p className="track__exerciseTitle">Exercise#2</p>
+                <LineGraph />
+                <p className="track__exerciseTitle">Exercise#3</p>
+                <LineGraph />
             </div>
         )
     }
