@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Logo from '../img/logo.jpg';
+
 const Navbar = () => {
     return(
         <nav>
             <div className="nav">
-            <Link to="/" className="nav__link">
-                <p>Immersive VRT</p>
+            <Link to="/">
+                <img src={Logo} alt="Logo" className="nav__logo" />
             </Link>
             <ul className="nav__list">
                 <li className="nav__item">

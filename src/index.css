@@ -80,7 +80,7 @@
 /* patient */
 .patient{
     padding: 1rem;
-    background-color: #f0e7e7;
+    background-color: #bce5f5;
 }
 
 .patient__information{
@@ -100,7 +100,6 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: #eaf7ed;
     border-bottom: 1px solid forestgreen;
     padding: 0 .5rem;
 }
@@ -117,13 +116,18 @@
 
 .nav__link{
     font-size: 1.2rem;
-    padding: 1rem .5rem;
+    padding: 1.1rem .5rem;
     text-decoration: none;
     cursor: pointer;
 }
 
 .nav__link:hover{
-    background-color: gainsboro;
+    background-color: #f7eeee;
+}
+
+.nav__logo{
+    width: 10rem;
+    margin: .3rem 0;
 }
 
 /* Utilties */
