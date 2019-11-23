@@ -59,11 +59,13 @@ class DashBoard extends Component{
                                 <i className={type.icon}></i>
                                 <p>Exercise #{type.id}</p>
                                 <label>
-                                    <div></div>
+                                    <div className="dashBoard__checkbox">
+                                        <i class="fas fa-check"></i>
+                                    </div>
                                     <input
                                         type="checkbox"
                                         name="checkbox1"
-                                        className=""/>
+                                        className="hidden"/>
                                 </label>
                             </div>
                         )})

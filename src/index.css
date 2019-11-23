@@ -36,12 +36,13 @@
 
 .dashBoard__checkboxGroup{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
     background-color: antiquewhite;
-    width: 5rem;
+    
 }
 
 .dashBoard__checkboxGroup input{
@@ -50,13 +51,22 @@
 }
 
 .dashBoard__dropdown{
-    width: 98%;
+    width: 100%;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
 .dashBoard__icon{
     font-size: 3rem;
+}
+
+.dashBoard__checkbox{
+    position: absolute;
+    background-color: #d4d4e0;
+    border: 1px solid blue;
+    padding: .3rem;
+    right: 0;
+    cursor: pointer;
 }
 
 /* Utilties */
