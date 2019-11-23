@@ -35,6 +35,10 @@
 }
 
 .dashBoard__checkboxGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     padding: 2rem;
     background-color: antiquewhite;
     width: 5rem;
@@ -52,8 +56,7 @@
 }
 
 .dashBoard__icon{
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 3rem;
 }
 
 /* Utilties */
@@ -71,4 +74,8 @@
 
 .purple{
     color: #bc23ca;
+}
+
+.hidden{
+    display: none;
 }

@@ -56,12 +56,16 @@ class DashBoard extends Component{
                     {this.state.typeList.map(type => {
                         return (
                             <div className="dashBoard__checkboxGroup" key={type.id}>
-                                <p>Exercise #{type.id}</p>
-                                <input
-                                    type="checkbox"
-                                    name="checkbox1"/>
                                 <i className={type.icon}></i>
-                                </div>
+                                <p>Exercise #{type.id}</p>
+                                <label>
+                                    <div></div>
+                                    <input
+                                        type="checkbox"
+                                        name="checkbox1"
+                                        className=""/>
+                                </label>
+                            </div>
                         )})
                     }
                 </div>
