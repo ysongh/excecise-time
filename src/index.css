@@ -50,3 +50,25 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+
+.dashBoard__icon{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* Utilties */
+.blue{
+    color: #465eca;
+}
+
+.green{
+    color: #23ca47;
+}
+
+.orange{
+    color: #e4ac14;
+}
+
+.purple{
+    color: #bc23ca;
+}

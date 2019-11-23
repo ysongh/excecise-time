@@ -23,10 +23,10 @@ class DashBoard extends Component{
         else if(value === "eye"){
             this.setState({ typeList: [5, 9] });
         }
-        else if(value === "neck"){
+        else if(value === "hand"){
             this.setState({ typeList: [2, 4, 5, 7, 9] });
         }
-        else if(value === "shoulder"){
+        else if(value === "foot"){
             this.setState({ typeList: [1, 4, 5, 8] });
         }
     }
@@ -46,8 +46,8 @@ class DashBoard extends Component{
                         <option value="">All</option>
                         <option value="head">Head</option>
                         <option value="eye">Eye</option>
-                        <option value="neck">Neck</option>
-                        <option value="shoulder">Shoulder</option>
+                        <option value="hand">Hand</option>
+                        <option value="foot">Foot</option>
                     </select>
                 </div>
                 <div className="dashBoard__checkboxArea">
@@ -57,6 +57,10 @@ class DashBoard extends Component{
                                 <input
                                     type="checkbox"
                                     name="checkbox1"/>
+                                <i class="fas fa-eye dashBoard__icon orange"></i>
+                                <i class="fas fa-user-alt dashBoard__icon blue"></i>
+                                <i class="fas fa-hand-paper dashBoard__icon purple"></i>
+                                <i class="fas fa-child dashBoard__icon green"></i>
                             </div>
                     })}
                 </div>
