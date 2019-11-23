@@ -69,6 +69,16 @@
     cursor: pointer;
 }
 
+/* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__linksGroup{
+    display: flex;
+}
+
 /* Utilties */
 .blue{
     color: #465eca;
