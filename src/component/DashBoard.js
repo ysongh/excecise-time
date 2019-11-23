@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import { allType, headType, eyeType, handType, bodyType } from '../data';
+
 class DashBoard extends Component{
     state = {
         selectType: "",
-        typeList: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        typeList: allType
     }
 
     onSelect(e){
@@ -15,19 +17,19 @@ class DashBoard extends Component{
 
     changetype(value){
         if(value === ""){
-            this.setState({ typeList: [1, 2, 3, 4, 5, 6, 7, 8, 9] });
+            this.setState({ typeList: allType });
         }
         else if(value === "head"){
-            this.setState({ typeList: [1, 2, 4, 5, 7, 9] });
+            this.setState({ typeList: headType });
         }
         else if(value === "eye"){
-            this.setState({ typeList: [5, 9] });
+            this.setState({ typeList: eyeType });
         }
         else if(value === "hand"){
-            this.setState({ typeList: [2, 4, 5, 7, 9] });
+            this.setState({ typeList: handType });
         }
-        else if(value === "foot"){
-            this.setState({ typeList: [1, 4, 5, 8] });
+        else if(value === "body"){
+            this.setState({ typeList: bodyType });
         }
     }
 
@@ -47,22 +49,21 @@ class DashBoard extends Component{
                         <option value="head">Head</option>
                         <option value="eye">Eye</option>
                         <option value="hand">Hand</option>
-                        <option value="foot">Foot</option>
+                        <option value="body">Body</option>
                     </select>
                 </div>
                 <div className="dashBoard__checkboxArea">
                     {this.state.typeList.map(type => {
-                        return <div className="dashBoard__checkboxGroup">
-                            <p>Exercise #{type}</p>
+                        return (
+                            <div className="dashBoard__checkboxGroup" key={type.id}>
+                                <p>Exercise #{type.id}</p>
                                 <input
                                     type="checkbox"
                                     name="checkbox1"/>
-                                <i class="fas fa-eye dashBoard__icon orange"></i>
-                                <i class="fas fa-user-alt dashBoard__icon blue"></i>
-                                <i class="fas fa-hand-paper dashBoard__icon purple"></i>
-                                <i class="fas fa-child dashBoard__icon green"></i>
-                            </div>
-                    })}
+                                <i className={type.icon}></i>
+                                </div>
+                        )})
+                    }
                 </div>
             </div>
         )
