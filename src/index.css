@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* dash board */
+.dashBoard{
+    padding: 1rem;
+}
+
+.dashBoard__title{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.dashBoard__inputGroup{
+    display: flex;
+}
+
+.dashBoard__textField{
+    width: 80%;
+    margin-bottom: 2rem;
+    height: 1rem;
+    font-size: 1rem
+}
+
+.dashBoard__checkboxArea{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5rem;
+}
+
+.dashBoard__checkboxGroup{
+    padding: 2rem;
+    background-color: antiquewhite;
+    width: 5rem;
+}
+
+.dashBoard__checkboxGroup input{
+    padding: 1rem;
+    background-color: brown;
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 
+import DashBoard from './component/DashBoard';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Immersive VRT</h1>
+        <DashBoard />
       </header>
     </div>
   );
