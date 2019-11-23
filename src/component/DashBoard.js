@@ -1,16 +1,32 @@
 import React, { Component } from 'react';
 
 class DashBoard extends Component{
+    state = {
+        selectType: ""
+    }
+
+    onSelect(e){
+        const value = e.target.value;
+        
+        this.setState({ selectType: value })
+    }
 
     render(){
         return(
             <div className="dashBoard">
                 <h1 className="dashBoard__title">Patient AI</h1>
                 <div className="dashBoard__inputGroup">
-                    <input  
-                        type="text"
-                        className="dashBoard__textField" />
-                    <p>Type</p>
+                    <select
+                        name="selectType"
+                        value={this.state.selectType}
+                        className="dashBoard__dropdown"
+                        onChange={this.onSelect.bind(this)}
+                    >
+                        <option value="">All</option>
+                        <option value="head">Head</option>
+                        <option value="eye">Eye</option>
+                        <option value="shoulder">Shoulder</option>
+                    </select>
                 </div>
                 <div className="dashBoard__checkboxArea">
                     <div className="dashBoard__checkboxGroup">

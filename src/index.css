@@ -13,6 +13,7 @@
 
 .dashBoard__title{
     text-align: center;
+    font-size: 3rem;
     margin: 1rem 0;
 }
 
@@ -42,4 +43,10 @@
 .dashBoard__checkboxGroup input{
     padding: 1rem;
     background-color: brown;
+}
+
+.dashBoard__dropdown{
+    width: 98%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
