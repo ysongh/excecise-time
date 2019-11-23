@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route  } from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Patient from './component/Patient';
 import DashBoard from './component/DashBoard';
+import Track from './component/Track';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Patient />
         <Route exact path="/" component={DashBoard} />
+        <Route exact path="/track" component={Track} />
       </header>
     </Router>
   );

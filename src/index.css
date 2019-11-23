@@ -13,7 +13,7 @@
 
 .dashBoard__title{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -42,7 +42,6 @@
     align-items: center;
     padding: 2rem;
     background-color: antiquewhite;
-    
 }
 
 .dashBoard__checkboxGroup input{
@@ -67,6 +66,15 @@
     padding: .3rem;
     right: 0;
     cursor: pointer;
+}
+
+/* track */
+.track{
+    padding-top: 1rem;
+}
+
+.track__exerciseTitle{
+    margin-left: 1.4rem;
 }
 
 /* patient */
@@ -94,6 +102,7 @@
     justify-content: space-between;
     background-color: #eaf7ed;
     border-bottom: 1px solid forestgreen;
+    padding: 0 .5rem;
 }
 
 .nav__list{
@@ -108,7 +117,7 @@
 
 .nav__link{
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 1rem .5rem;
     text-decoration: none;
     cursor: pointer;
 }

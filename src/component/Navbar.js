@@ -13,7 +13,7 @@ const Navbar = () => {
                     <Link to="/" className="nav__link">DashBoard</Link>
                 </li>
                 <li className="nav__item">
-                    <Link to="/graph" className="nav__link">Graphs</Link>
+                    <Link to="/track" className="nav__link">Tracking</Link>
                 </li>
             </ul>
             </div>
