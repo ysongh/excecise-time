@@ -14,7 +14,7 @@
 .dashBoard__title{
     text-align: center;
     font-size: 3rem;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 .dashBoard__inputGroup{
@@ -78,7 +78,14 @@
 .patient__information{
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.patient__date{
+    width: 14.5rem;
+    padding: .5rem .2rem;
+    margin-top: .5rem;
+    font-size: 1rem;
 }
 
 /* nav */

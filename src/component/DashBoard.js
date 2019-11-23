@@ -37,7 +37,7 @@ class DashBoard extends Component{
 
         return(
             <div className="dashBoard">
-                <h1 className="dashBoard__title">Patient ID</h1>
+                <h1 className="dashBoard__title">Exercise Assignment</h1>
                 <div className="dashBoard__inputGroup">
                     <select
                         name="selectType"
