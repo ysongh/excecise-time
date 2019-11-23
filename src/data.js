@@ -84,3 +84,7 @@ export let bodyType = [
         "icon": "fas fa-child dashBoard__icon green"
     },
 ];
+
+export let ex1Data = [-20, -20, 20, 20, 21, -10, -10, -10, 40, 40, 5, 5, 10, 25, 30];
+export let ex2Data = [20, 20, -20, -20, 21, 21, -10, -10, 40, 40, 10, 10, 10, 10, 10];
+export let ex3Data = [0, 0, 20, 20, 20, -30, -30, -30, 30, 30, -5, -5, -5, -30, -30];

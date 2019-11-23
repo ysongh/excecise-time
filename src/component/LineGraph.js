@@ -18,7 +18,7 @@ class LineGraph extends React.Component {
         series: [
             {
                 name: "Time",
-                data: [-20, -20, 20, 20, 21, -10, -10, -10, 40, 40, 5, 5, 10, 25, 30]
+                data: this.props.data
             }
         ]
     };
