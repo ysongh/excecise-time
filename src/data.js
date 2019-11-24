@@ -1,39 +1,48 @@
 export let allType = [
     {
         "id": "1",
-        "icon": "fas fa-eye dashBoard__icon orange"
+        "icon": "fas fa-eye dashBoard__icon orange",
+        "checked": false
     },
     {
         "id": "2",
-        "icon": "fas fa-hand-paper dashBoard__icon purple"
+        "icon": "fas fa-hand-paper dashBoard__icon purple",
+        "checked": false
     },
     {
         "id": "3",
-        "icon": "fas fa-child dashBoard__icon green"
+        "icon": "fas fa-child dashBoard__icon green",
+        "checked": false
     },
     {
         "id": "4",
-        "icon": "fas fa-hand-paper dashBoard__icon purple"
+        "icon": "fas fa-hand-paper dashBoard__icon purple",
+        "checked": false
     },
     {
         "id": "5",
-        "icon": "fas fa-user-alt dashBoard__icon blue"
+        "icon": "fas fa-user-alt dashBoard__icon blue",
+        "checked": false
     },
     {
         "id": "6",
-        "icon": "fas fa-child dashBoard__icon green"
+        "icon": "fas fa-child dashBoard__icon green",
+        "checked": false
     },
     {
         "id": "7",
-        "icon": "fas fa-user-alt dashBoard__icon blue"
+        "icon": "fas fa-user-alt dashBoard__icon blue",
+        "checked": false
     },
     {
         "id": "8",
-        "icon": "fas fa-eye dashBoard__icon orange"
+        "icon": "fas fa-eye dashBoard__icon orange",
+        "checked": false
     },
     {
         "id": "9",
-        "icon": "fas fa-child dashBoard__icon green"
+        "icon": "fas fa-child dashBoard__icon green",
+        "checked": false
     }
 ];
 

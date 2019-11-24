@@ -34,6 +34,16 @@ class DashBoard extends Component{
         }
     }
 
+    onChecked(id){
+        let newType = this.state.typeList;
+        newType.forEach(type => {
+            if(type.id === id){
+                type.checked = !type.checked;
+            }
+        });
+        this.setState({ typeList: newType });
+    }
+
     render(){
 
         return(
@@ -62,11 +72,12 @@ class DashBoard extends Component{
                                 <p>Exercise #{type.id}</p>
                                 <label>
                                     <div className="dashBoard__checkbox">
-                                        <i className="fas fa-check"></i>
+                                        {type.checked ? <i className="fas fa-check"></i> : <i className="fas fa-check noColor"></i>}
                                     </div>
                                     <input
                                         type="checkbox"
                                         name="checkbox1"
+                                        onClick={() => this.onChecked(type.id)}
                                         className="hidden"/>
                                 </label>
                             </div>
