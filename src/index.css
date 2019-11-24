@@ -70,7 +70,7 @@
 
 /* track */
 .track{
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .track__exerciseTitle{
@@ -149,4 +149,8 @@
 
 .hidden{
     display: none;
+}
+
+.mt-2{
+    margin-top: 1.5rem;
 }

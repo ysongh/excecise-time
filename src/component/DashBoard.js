@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Patient from '../component/Patient';
 import { allType, headType, eyeType, handType, bodyType } from '../data';
 
 class DashBoard extends Component{
@@ -38,7 +39,8 @@ class DashBoard extends Component{
         return(
             <div className="dashBoard">
                 <h1 className="dashBoard__title">Exercise Assignment</h1>
-                <div className="dashBoard__inputGroup">
+                <Patient />
+                <div className="dashBoard__inputGroup mt-2">
                     <select
                         name="selectType"
                         value={this.state.selectType}
