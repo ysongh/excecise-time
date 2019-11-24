@@ -13,9 +13,9 @@ class Track extends Component{
                 <div className="mt-2"></div>
                 <p className="track__exerciseTitle">Exercise #1</p>
                 <LineGraph data={ex1Data} />
-                <p className="track__exerciseTitle">Exercise #2</p>
-                <LineGraph data={ex2Data} />
                 <p className="track__exerciseTitle">Exercise #3</p>
+                <LineGraph data={ex2Data} />
+                <p className="track__exerciseTitle">Exercise #7</p>
                 <LineGraph data={ex3Data} />
             </div>
         )
