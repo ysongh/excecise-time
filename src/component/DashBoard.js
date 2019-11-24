@@ -62,7 +62,7 @@ class DashBoard extends Component{
                                 <p>Exercise #{type.id}</p>
                                 <label>
                                     <div className="dashBoard__checkbox">
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                     </div>
                                     <input
                                         type="checkbox"

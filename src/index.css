@@ -6,6 +6,24 @@
     box-sizing: inherit;
 }
 
+/* landing */
+.landing{
+    padding: 1rem;
+}
+
+.landing__cta{
+    display: block;
+    text-decoration: none;
+    background-color: #1e10e9;
+    color: white;
+    font-size: 1.4rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    margin: auto;
+    width: 7rem;
+    text-align: center;
+}
+
 /* dash board */
 .dashBoard{
     padding: 1rem;
