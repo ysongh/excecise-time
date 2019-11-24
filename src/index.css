@@ -11,6 +11,10 @@
     padding: 1rem;
 }
 
+.dashBoard__img{
+    width: 100%;
+}
+
 .landing__cta{
     display: block;
     text-decoration: none;
