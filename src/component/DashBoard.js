@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Patient from '../component/Patient';
-import { allType, headType, eyeType, handType, bodyType } from '../data';
+import { allType } from '../data';
 
 class DashBoard extends Component{
     state = {
@@ -20,17 +20,15 @@ class DashBoard extends Component{
         if(value === ""){
             this.setState({ typeList: allType });
         }
-        else if(value === "head"){
-            this.setState({ typeList: headType });
-        }
-        else if(value === "eye"){
-            this.setState({ typeList: eyeType });
-        }
-        else if(value === "hand"){
-            this.setState({ typeList: handType });
-        }
-        else if(value === "body"){
-            this.setState({ typeList: bodyType });
+        else{
+            let newType = [];
+            allType.forEach(type => {
+                if(type.type === value){
+                    newType.push(type);
+                }
+            });
+
+            this.setState({ typeList: newType });
         }
     }
 
