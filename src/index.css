@@ -11,7 +11,13 @@
     padding: 1rem;
 }
 
-.dashBoard__img{
+.landing__p{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.landing__img{
     width: 100%;
 }
 
